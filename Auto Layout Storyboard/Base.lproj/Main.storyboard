@@ -61,10 +61,20 @@
                                     <constraint firstAttribute="trailing" secondItem="c5E-jd-Atv" secondAttribute="trailing" constant="10" id="ze7-oN-bMN"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n2u-Yf-CRM">
+                                <rect key="frame" x="162" y="308.5" width="50" height="50"/>
+                                <color key="backgroundColor" red="0.2170394497" green="0.25929745189999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="EgD-n6-fdF"/>
+                                    <constraint firstAttribute="width" constant="50" id="F0M-pX-6P7"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.06085175835" green="1" blue="0.1247532376" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="n2u-Yf-CRM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3Gf-Ev-1Kc"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Xxu-jL-7nT" secondAttribute="bottom" constant="20" id="Mmu-Wd-UJ7"/>
+                            <constraint firstItem="n2u-Yf-CRM" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="OwB-cg-eZI"/>
                             <constraint firstAttribute="trailingMargin" secondItem="rXI-uT-4CC" secondAttribute="trailing" constant="20" id="SQx-yB-RVf"/>
                             <constraint firstAttribute="trailing" secondItem="Xxu-jL-7nT" secondAttribute="trailing" constant="20" id="Ylm-sd-mWO"/>
                             <constraint firstItem="rXI-uT-4CC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="20" id="gLU-3y-Vtd"/>
